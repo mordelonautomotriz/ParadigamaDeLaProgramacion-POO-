@@ -36,22 +36,38 @@ public class RequerimientosFuncionales {
         
         System.out.println("ingrese los REQUERIMIENTOS FUNCIONALES: \n");
         
-        System.out.println("Propiedades \n");
+        System.out.println("\tPropiedades \n");
         String requerimientoun=objeto.nextLine();
         
         System.out.println("\ningrese los requerimientos NO FUNCIONALES: \n");
         
-        System.out.println("Propiedades \n");
+        System.out.println("\tPropiedades");
         String requerimientouno=objeto.nextLine();
        
         System.out.println("\nindique las FASES PARA EL DISENIO DE LA ORIENTACION A OBJETOS \n");
         
-       System.out.println("atributos: \n");
-        String faseuno=objeto.nextLine();
-        
-        System.out.println("servicios: \n");
+       System.out.println("\tatributos: ");
+       String faseuno=objeto.nextLine();
+       String fasedos=objeto.nextLine();
+       String fasetres=objeto.nextLine();
+       String fasecuatro=objeto.nextLine();
+       String fasecinco=objeto.nextLine();
+       String faseseis=objeto.nextLine();
+              
+        System.out.println("\tservicios:");
        String pasodos=objeto.nextLine();
-  
+       String pasotres=objeto.nextLine();
+       String pasocuatros=objeto.nextLine();
+       String pasocinco=objeto.nextLine();
+       String pasoseis=objeto.nextLine();
+       String pasosiete=objeto.nextLine();
+       
+       System.out.println("\tingrese datos de la ABSTRACCION:");
+       
+       String elementouno=objeto.nextLine();
+       String elementodos=objeto.nextLine();
+       String elementotres=objeto.nextLine();
+       String elementocuatroa=objeto.nextLine();
     }
     
 }
