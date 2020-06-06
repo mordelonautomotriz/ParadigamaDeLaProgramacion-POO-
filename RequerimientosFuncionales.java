@@ -68,6 +68,24 @@ public class RequerimientosFuncionales {
        String elementodos=objeto.nextLine();
        String elementotres=objeto.nextLine();
        String elementocuatroa=objeto.nextLine();
+       
+       System.out.println("\tdetermine el ENCAPSULAMIENTO: \n");
+       System.out.println("Sistema: ");
+       String sistema=objeto.nextLine();
+       
+      System.out.println("\tObjeto: ");
+      String objetos=objeto.nextLine();
+      
+      System.out.println("\tClase de Objeto: ");
+      String claseObjeto=objeto.nextLine();
+      
+      System.out.println("\tAtributos: ");
+      String atributo=objeto.nextLine();
+      String atributos=objeto.nextLine();
+      
+      System.out.println("\tservicios:");
+      String servicio=objeto.nextLine();
+      String servicios=objeto.nextLine();
     }
     
 }
