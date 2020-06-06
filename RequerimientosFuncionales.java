@@ -44,6 +44,14 @@ public class RequerimientosFuncionales {
         System.out.println("Propiedades \n");
         String requerimientouno=objeto.nextLine();
        
+        System.out.println("\nindique las FASES PARA EL DISENIO DE LA ORIENTACION A OBJETOS \n");
+        
+       System.out.println("atributos: \n");
+        String faseuno=objeto.nextLine();
+        
+        System.out.println("servicios: \n");
+       String pasodos=objeto.nextLine();
+  
     }
     
 }
