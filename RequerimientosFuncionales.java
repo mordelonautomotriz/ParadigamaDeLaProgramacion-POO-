@@ -39,7 +39,10 @@ public class RequerimientosFuncionales {
         System.out.println("Propiedades \n");
         String requerimientoun=objeto.nextLine();
         
+        System.out.println("\ningrese los requerimientos NO FUNCIONALES: \n");
         
+        System.out.println("Propiedades \n");
+        String requerimientouno=objeto.nextLine();
        
     }
     
