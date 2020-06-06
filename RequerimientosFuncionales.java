@@ -70,7 +70,7 @@ public class RequerimientosFuncionales {
        String elementocuatroa=objeto.nextLine();
        
        System.out.println("\tdetermine el ENCAPSULAMIENTO: \n");
-       System.out.println("Sistema: ");
+       System.out.println("\tSistema: ");
        String sistema=objeto.nextLine();
        
       System.out.println("\tObjeto: ");
@@ -86,6 +86,19 @@ public class RequerimientosFuncionales {
       System.out.println("\tservicios:");
       String servicio=objeto.nextLine();
       String servicios=objeto.nextLine();
+      
+      System.out.println("\tingrese MODULARIDAD:\n");
+      System.out.println("\tSistema:");
+      String sistemas=objeto.nextLine();
+      
+      System.out.println("\tModulo Principal:");
+      String moduloprincipal=objeto.nextLine();
+      
+      System.out.println("\tSubmodulos:");
+      String submodulo1=objeto.nextLine();
+      String submodulo2=objeto.nextLine();
+      String submodulo3=objeto.nextLine();
+      
     }
     
 }
